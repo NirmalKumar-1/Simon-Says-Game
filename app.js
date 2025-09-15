@@ -8,6 +8,7 @@ let level = 0;
 
 let h3 = document.querySelector("h3");
 
+// Start game with keyboard (PC)
 document.addEventListener("keypress", function(){
     if(started == false){
         started = true;
@@ -15,7 +16,14 @@ document.addEventListener("keypress", function(){
         levelUp();
     }
 })
+// Start game with screen tap (Mobile)
+document.addEventListener("touchstart", function(){
+    if(started == false){
+        started = true;
 
+        levelUp();
+    }
+})
 function gameFlash(btn){
     btn.classList.add("flash");
     setTimeout(function() {
