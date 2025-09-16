@@ -35,3 +35,8 @@ After the pattern ends, repeat it by clicking the colored buttons in the correct
 Each round, the pattern gets longer.
 
 If you press a wrong button, the game ends and you'll have to restart.
+
+
+https://github.com/user-attachments/assets/48340797-5905-433b-b45a-70b6e40085da
+
+
